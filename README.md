@@ -25,4 +25,10 @@ npm install
 npm run dev
 ```
 
+Para iniciar o storybook execute:
+
+```sh
+npm run storybook
+```
+
 Acesse http://localhost:3000 para visualizar a aplicação.
