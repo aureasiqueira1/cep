@@ -1,0 +1,49 @@
+{
+  "name": "cep-correio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/cli": "^7.6.17",
+    "axios": "^1.6.7",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.17",
+    "@storybook/addon-interactions": "^7.6.17",
+    "@storybook/addon-links": "^7.6.17",
+    "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/addon-styling-webpack": "^0.0.6",
+    "@storybook/addon-webpack5-compiler-swc": "^1.0.0",
+    "@storybook/blocks": "^7.6.17",
+    "@storybook/nextjs": "^7.6.17",
+    "@storybook/react": "^7.6.17",
+    "@storybook/test": "^7.6.17",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.17",
+    "css-loader": "^6.10.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "eslint-plugin-storybook": "^0.8.0",
+    "postcss": "^8.4.35",
+    "postcss-loader": "^8.1.0",
+    "storybook": "^7.6.17",
+    "style-loader": "^3.3.4",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
