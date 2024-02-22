@@ -1,8 +1,8 @@
-import { ButtonSearch } from "@/components/ButtonSearch";
-import { Table } from "@/components/Table";
-import { InputSearch } from "@/components/InputSearch";
+import { ButtonSearch } from "../components/ButtonSearch";
+import { Table } from "../components/Table";
+import { InputSearch } from "../components/InputSearch";
 import { ChangeEvent, useState } from "react";
-import { api } from "@/service/api";
+import { api } from "../service/api";
 
 interface Address {
   bairro?: string;
