@@ -11,6 +11,7 @@ Esta é uma aplicação que utiliza um CEP para obter o endereço completo via A
 
 - Next.js
 - TypeScript
+- Jest
 - TailwindCSS
 - Storybook
 - API ViaCep 
@@ -29,6 +30,12 @@ Para iniciar o storybook execute:
 
 ```sh
 npm run storybook
+```
+
+Para rodar todos os testes execute:
+
+```sh
+npm run test
 ```
 
 Acesse http://localhost:3000 para visualizar a aplicação.
