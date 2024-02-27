@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent, waitFor } from "@testing-library/react";
-import Main from "./Main";
+import { Main } from "./Main";
 import { api } from "../service/api";
 
 jest.mock("../service/api");

@@ -14,7 +14,7 @@ interface Address {
   uf?: string;
 }
 
-function Main() {
+export function Main() {
   const [search, setSearch] = useState("");
   const [response, setResponse] = useState<Address>();
 
@@ -38,5 +38,3 @@ function Main() {
     </div>
   );
 }
-
-export default Main;
