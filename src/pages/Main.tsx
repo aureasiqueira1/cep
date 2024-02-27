@@ -1,3 +1,4 @@
+import React from "react";
 import { ButtonSearch } from "../components/ButtonSearch";
 import { Table } from "../components/Table";
 import { InputSearch } from "../components/InputSearch";
@@ -13,7 +14,7 @@ interface Address {
   uf?: string;
 }
 
-export function Main() {
+function Main() {
   const [search, setSearch] = useState("");
   const [response, setResponse] = useState<Address>();
 
@@ -37,3 +38,5 @@ export function Main() {
     </div>
   );
 }
+
+export default Main;

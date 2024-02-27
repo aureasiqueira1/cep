@@ -1,4 +1,6 @@
-import { getAllByText, render } from "@testing-library/react";
+import React from "react";
+
+import { render } from "@testing-library/react";
 import { Table } from ".";
 
 describe("Table component", () => {

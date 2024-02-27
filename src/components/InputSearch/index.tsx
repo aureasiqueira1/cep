@@ -1,3 +1,5 @@
+import React from "react";
+
 import { ChangeEventHandler } from "react";
 
 type Props = { handleSearch: ChangeEventHandler<HTMLInputElement> };
